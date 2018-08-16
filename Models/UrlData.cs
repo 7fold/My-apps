@@ -7,7 +7,7 @@ namespace ShortUrl.Models
     public class UrlData
     {
         private string ConnectionString =
-            "server=yakymenko.com;port=3306;database=test;user=yuriy;password=Slsuaua03101993!;SslMode=none;";
+            "server=example.com;port=3306;database=dbname;user=username;password=pass;SslMode=none;";
 
         // Show all url's in the database
         public IEnumerable<Url> GetAllUrls()
