@@ -1,0 +1,23 @@
+<div class="container-fluid">
+  <h1>URL Shortener Microservice</h1>
+
+  <p>This component provides an ability to shorten URLs</p>
+
+  <p *ngIf="!urls"><em>Loading...</em></p>
+
+  <p>
+    <button class="btn btn-primary btn-block" [routerLink]="['/url/add-new']">Create new URL</button>
+  </p>
+
+  <div *ngIf="urls">
+    <div class="row">
+      <div class="col-md-4 url-block" *ngFor="let url of urls">
+        <p><b>ID: </b>{{ url.id }}</p>
+        <p><code class="code-url"><a class="code-area" href="{{ url.urlShort }}" target="_blank">{{ url.urlShort }}</a></code></p>
+        <p style="font-size: 20px;"><a style="color: red" [routerLink]="" (click)="delete(url.id)">Delete</a> ||
+        <a style="color: green" [routerLink]="['details/']+(url.id)">Details</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+

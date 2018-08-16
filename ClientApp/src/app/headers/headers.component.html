@@ -1,0 +1,13 @@
+<div class="container-fluid">
+  <h1>Request Headers Parser</h1>
+
+  <p>This component provides information about request headers</p>
+
+  <p *ngIf="!headers"><em>Loading...</em></p>
+  <div *ngIf="headers">
+
+    <div *ngFor="let key of objectKeys(headers)">
+      <p><b>{{key}}: </b><code class="code-area">{{headers[key]}}</code></p>
+    </div>
+  </div>
+</div>

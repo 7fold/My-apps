@@ -1,0 +1,14 @@
+<div class="container-fluid">
+  <h1>Enter url which you want to shorten</h1>
+  <form (ngSubmit)="onSubmit(urlForm)" #urlForm="ngForm">
+    <div class="form-group">
+      <label for="Url">Original URL</label>
+      <input type="text" class="form-control" id="Url" name="Url" ngModel required>
+    </div>
+
+
+
+    <button type="submit" class="btn btn-success">Submit</button>
+    <button class="btn btn-danger" routerLink="/url">Cancel</button>
+  </form>
+</div>

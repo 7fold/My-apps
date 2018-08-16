@@ -1,0 +1,26 @@
+<div class="container-fluid">
+  <div class="mb-3">
+    <h1>URL details</h1>
+    <p *ngIf="!info"><em>Loading...</em></p>
+
+    <div *ngIf="info">
+      <h3>Short URL for: <span style="color: red">{{info.urlOriginal}}</span></h3>
+
+      <br>
+
+      <code style="font-size: 24px;">
+        <a href="{{info.urlShort}}" target="_blank">{{info.urlShort}}</a>
+      </code>
+
+      <br>
+
+      <br>
+
+      <p><b>Created: </b>{{ info.date | date : format : short}}</p>
+      <p><b>Creator's IP: </b>{{ info.ip }}</p>
+      <p><b>Times clicked: </b>{{ info.count }}</p>
+    </div>
+  </div>
+  <br>
+  <button class="btn btn-danger" routerLink="/url">Go back</button>
+</div>

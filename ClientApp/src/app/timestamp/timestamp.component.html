@@ -1,0 +1,9 @@
+<div class="container-fluid">
+  <h1>Timestamp Microservice</h1>
+  <p>This component sends you current UNIX and UTC Timestamp</p>
+  <p *ngIf="!data">Loading...</p>
+  <div *ngIf="data">
+    <p><b>Unix timestamp: </b><code class="code-area">{{data.unix}}</code></p>
+    <p><b>UTC format: </b><code class="code-area">{{data.utc}}</code></p>
+  </div>
+</div>

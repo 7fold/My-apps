@@ -1,0 +1,20 @@
+<div class="container-fluid">
+  <h1>Information about your IP</h1>
+  <p>This component provides you information about your IP address</p>
+
+  <form (ngSubmit)="onSubmit(ipForm)" #ipForm="ngForm">
+    <div class="form-group">
+      <label for="ip">Check another IP</label>
+      <input type="text" class="input-sm" id="ip" name="ip" ngModel required>
+      <button type="submit" class="btn btn-success">Submit</button>
+    </div>
+  </form>
+
+  <p *ngIf="!data"><em>Loading...</em></p>
+
+  <div *ngIf="data">
+    <div *ngFor="let key of objectKeys(data)">
+      <p><b>{{key}}: </b><code class="code-area">{{data[key]}}</code></p>
+    </div>
+  </div>
+</div>

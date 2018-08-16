@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p=".gitignore" t="Include" />
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="ClientApp" t="Include">
+        <e p=".angular-cli.json" t="Include" />
+        <e p=".editorconfig" t="Include" />
+        <e p=".gitignore" t="Include" />
+        <e p="dist" t="Include">
+          <e p="3rdpartylicenses.txt" t="Include" />
+          <e p="glyphicons-halflings-regular.448c34a56d699c29117a.woff2" t="Include" />
+          <e p="glyphicons-halflings-regular.89889688147bd7575d63.svg" t="Include" />
+          <e p="glyphicons-halflings-regular.e18bbf611f2a2e43afc0.ttf" t="Include" />
+          <e p="glyphicons-halflings-regular.f4769f9bdb7466be6508.eot" t="Include" />
+          <e p="glyphicons-halflings-regular.fa2772327f55d8198301.woff" t="Include" />
+          <e p="index.html" t="Include" />
+          <e p="inline.318b50c57b4eba3d437b.bundle.js" t="Include" />
+          <e p="main.78bd5d1d7bee94433b34.bundle.js" t="Include" />
+          <e p="polyfills.bf95165a1d5098766b92.bundle.js" t="Include" />
+          <e p="styles.2bd735b0190654a26986.bundle.css" t="Include" />
+        </e>
+        <e p="e2e" t="Include">
+          <e p="app.e2e-spec.ts" t="Include" />
+          <e p="app.po.ts" t="Include" />
+          <e p="tsconfig.e2e.json" t="Include" />
+        </e>
+        <e p="karma.conf.js" t="Include" />
+        <e p="package-lock.json" t="Include" />
+        <e p="package.json" t="Include" />
+        <e p="protractor.conf.js" t="Include" />
+        <e p="README.md" t="Include" />
+        <e p="src" t="Include">
+          <e p="app" t="Include">
+            <e p="add-new-url" t="Include">
+              <e p="add-new-url.component.css" t="Include" />
+              <e p="add-new-url.component.html" t="Include" />
+              <e p="add-new-url.component.spec.ts" t="Include" />
+              <e p="add-new-url.component.ts" t="Include" />
+            </e>
+            <e p="app.component.css" t="Include" />
+            <e p="app.component.html" t="Include" />
+            <e p="app.component.ts" t="Include" />
+            <e p="app.module.ts" t="Include" />
+            <e p="headers" t="Include">
+              <e p="headers.component.css" t="Include" />
+              <e p="headers.component.html" t="Include" />
+              <e p="headers.component.spec.ts" t="Include" />
+              <e p="headers.component.ts" t="Include" />
+            </e>
+            <e p="headers.service.spec.ts" t="Include" />
+            <e p="headers.service.ts" t="Include" />
+            <e p="home" t="Include">
+              <e p="home.component.html" t="Include" />
+              <e p="home.component.ts" t="Include" />
+            </e>
+            <e p="ip-det-custom" t="Include">
+              <e p="ip-det-custom.component.css" t="Include" />
+              <e p="ip-det-custom.component.html" t="Include" />
+              <e p="ip-det-custom.component.spec.ts" t="Include" />
+              <e p="ip-det-custom.component.ts" t="Include" />
+            </e>
+            <e p="ip-detailed" t="Include">
+              <e p="ip-detailed.component.css" t="Include" />
+              <e p="ip-detailed.component.html" t="Include" />
+              <e p="ip-detailed.component.spec.ts" t="Include" />
+              <e p="ip-detailed.component.ts" t="Include" />
+            </e>
+            <e p="ip.service.spec.ts" t="Include" />
+            <e p="ip.service.ts" t="Include" />
+            <e p="nav-menu" t="Include">
+              <e p="nav-menu.component.css" t="Include" />
+              <e p="nav-menu.component.html" t="Include" />
+              <e p="nav-menu.component.ts" t="Include" />
+            </e>
+            <e p="new-url-details" t="Include">
+              <e p="new-url-details.component.css" t="Include" />
+              <e p="new-url-details.component.html" t="Include" />
+              <e p="new-url-details.component.spec.ts" t="Include" />
+              <e p="new-url-details.component.ts" t="Include" />
+            </e>
+            <e p="timestamp" t="Include">
+              <e p="timestamp.component.css" t="Include" />
+              <e p="timestamp.component.html" t="Include" />
+              <e p="timestamp.component.spec.ts" t="Include" />
+              <e p="timestamp.component.ts" t="Include" />
+            </e>
+            <e p="timestamp.service.spec.ts" t="Include" />
+            <e p="timestamp.service.ts" t="Include" />
+            <e p="timestamp.ts" t="Include" />
+            <e p="url" t="Include">
+              <e p="url.component.css" t="Include" />
+              <e p="url.component.html" t="Include" />
+              <e p="url.component.spec.ts" t="Include" />
+              <e p="url.component.ts" t="Include" />
+            </e>
+            <e p="url.service.spec.ts" t="Include" />
+            <e p="url.service.ts" t="Include" />
+            <e p="url.ts" t="Include" />
+          </e>
+          <e p="assets" t="Include">
+            <e p=".gitkeep" t="Include" />
+          </e>
+          <e p="environments" t="Include">
+            <e p="environment.prod.ts" t="Include" />
+            <e p="environment.ts" t="Include" />
+          </e>
+          <e p="index.html" t="Include" />
+          <e p="main.ts" t="Include" />
+          <e p="polyfills.ts" t="Include" />
+          <e p="styles.css" t="Include" />
+          <e p="test.ts" t="Include" />
+          <e p="tsconfig.app.json" t="Include" />
+          <e p="tsconfig.spec.json" t="Include" />
+          <e p="typings.d.ts" t="Include" />
+        </e>
+        <e p="tsconfig.json" t="Include" />
+        <e p="tslint.json" t="Include" />
+      </e>
+      <e p="Controllers" t="Include">
+        <e p="GoController.cs" t="Include" />
+        <e p="ShortController.cs" t="Include" />
+        <e p="TimeController.cs" t="Include" />
+      </e>
+      <e p="models" t="Include">
+        <e p="Url.cs" t="Include" />
+        <e p="UrlData.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="debug" t="Include">
+          <e p="netcoreapp2.1" t="Include">
+            <e p="ShortUrl.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Pages" t="Include">
+        <e p="_ViewImports.cshtml" t="Include" />
+        <e p="Error.cshtml" t="Include" />
+        <e p="Error.cshtml.cs" t="Include" />
+      </e>
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="ShortUrl.csproj" t="IncludeRecursive" />
+      <e p="ShortUrl.sln" t="IncludeFlat" />
+      <e p="Startup.cs" t="Include" />
+      <e p="wwwroot" t="Include">
+        <e p="favicon.ico" t="Include" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_ShortUrl.1588413591.00" t="ExcludeRecursive" />
+  </component>
+</project>
